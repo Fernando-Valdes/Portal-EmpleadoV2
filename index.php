@@ -2,7 +2,7 @@
   include("head.php");
   include("menu.php");
 ?>
-
+prueba de git
     <!-- page content -->
     <div class="right_col" role="main">
       <!-- top tiles -->
