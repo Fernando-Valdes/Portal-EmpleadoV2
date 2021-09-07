@@ -1,7 +1,7 @@
 <body class="nav-md">
     <div class="container body">
       <div class="main_container">
-        <div class="col-md-3 left_col">
+        <div class="col-md-3 left_col menu_fixed">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
               <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Tribunal Administrativo</span></a>
@@ -14,7 +14,7 @@
                 <img src="images/img.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
-                <span>Bienvenido/a</span>
+                <span>Bienvenida/o</span>
                 <h2>John Doe</h2>
               </div>
             </div>
@@ -28,14 +28,14 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-home"></i> Mi perfil <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-user"></i> Mi perfil <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="index.html">Datos personales</a></li>
                       <li><a href="index2.html">Datos Laborales</a></li>
                       <li><a href="index3.html">-------</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-edit"></i> Nóminas <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-list-alt"></i> Nóminas <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="form.html">Ver Nóminas</a></li>
                       <li><a href="form_advanced.html">----------</a></li>
@@ -60,7 +60,7 @@
                       <li><a href="echarts.html">-----------</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-bar-chart-o"></i> Ayuda y soporte técnico <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-wrench"></i> Ayuda y soporte técnico <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="chartjs2.html">Sugerencias del sistema</a></li>
                       <li><a href="morisjs.html">Reportar un error</a></li>
@@ -72,22 +72,22 @@
               <div class="menu_section">
                 <h3>Administrador</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-bug"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-users"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="e_commerce.html">Todos los usuarios</a></li>
                       <li><a href="projects.html">-------------</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-windows"></i> Token <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-key"></i> Token <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="page_403.html">Registro portal empleado</a></li>
                       <li><a href="page_404.html">Registro sistema de sentencias</a></li>
                       <li><a href="page_500.html">----------</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-sitemap"></i> Informática <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-desktop"></i> Informática <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="#level1_1">Ip eqipos informáticos</a>
+                        <li><a href="#level1_1">Ip equipos informáticos</a>
                         <li><a>Contraseñas<span class="fa fa-chevron-down"></span></a>
                           <ul class="nav child_menu">
                             <li class="sub_menu"><a href="level2.html">Control de contraseña</a>
@@ -101,14 +101,14 @@
                         <li><a href="#level1_2">----------</a>
                         </li>
                     </ul>
-                    <li><a><i class="fa fa-windows"></i> Avisos <span class="fa fa-chevron-down"></span></a>
+                    <li><a><i class="fa fa-bell-o"></i> Avisos <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="page_403.html">Lista de Avisos</a></li>
                       <li><a href="page_404.html">Notificaciones</a></li>
                       <li><a href="page_500.html">----------</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-windows"></i> Asistencia técnica <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-wrench"></i> Asistencia técnica <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="page_403.html">Reporte de errores</a></li>
                       <li><a href="page_404.html">Sugerencias | Comentarios</a></li>

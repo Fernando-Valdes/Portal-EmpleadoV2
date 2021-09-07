@@ -17,6 +17,11 @@
     <script src="vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
     <script src="vendors/nprogress/nprogress.js"></script>
+    <!-- morris.js -->
+    <script src="vendors/raphael/raphael.min.js"></script>
+    <script src="vendors/morris.js/morris.min.js"></script>
+    <!-- jQuery custom content scroller -->
+    <script src="vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- Chart.js -->
     <script src="vendors/Chart.js/dist/Chart.min.js"></script>
     <!-- gauge.js -->
