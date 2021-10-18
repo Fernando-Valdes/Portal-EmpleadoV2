@@ -37,7 +37,7 @@
                   </li>
                   <li><a><i class="fa fa-list-alt"></i> Nóminas <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">Ver Nóminas</a></li>
+                      <li><a href="nomina.php">Ver Nóminas</a></li>
                       <li><a href="form_advanced.html">----------</a></li>
                     </ul>
                   </li>
@@ -49,7 +49,7 @@
                   </li>
                   <li><a><i class="fa fa-desktop"></i> Resguardos <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="general_elements.html">Equipos informáticos</a></li>
+                      <li><a href="resguardoinformatico.php">Equipos informáticos</a></li>
                       <li><a href="media_gallery.html">Mobiliario</a></li>
                       <li><a href="typography.html">----------</a></li>
                     </ul>
