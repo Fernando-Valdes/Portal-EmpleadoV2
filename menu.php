@@ -30,7 +30,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-user"></i> Mi perfil <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.html">Datos personales</a></li>
+                      <li><a href="ficha_de_identificacion.php">Datos personales</a></li>
                       <li><a href="index2.html">Datos Laborales</a></li>
                       <li><a href="index3.html">-------</a></li>
                     </ul>
@@ -74,7 +74,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-users"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="e_commerce.html">Todos los usuarios</a></li>
+                      <li><a href="usuarios.php">Todos los usuarios</a></li>
                       <li><a href="projects.html">-------------</a></li>
                     </ul>
                   </li>
@@ -87,7 +87,7 @@
                   </li>
                   <li><a><i class="fa fa-desktop"></i> Informática <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="#level1_1">Ip equipos informáticos</a>
+                        <li><a href="equipos_informaticos.php">Ip equipos informáticos</a>
                         <li><a>Contraseñas<span class="fa fa-chevron-down"></span></a>
                           <ul class="nav child_menu">
                             <li class="sub_menu"><a href="level2.html">Control de contraseña</a>
