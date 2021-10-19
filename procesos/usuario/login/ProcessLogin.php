@@ -26,15 +26,19 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         } 
 
     // comprobar si el user existe 
-    $buscar_user = $con->prepare("SELECT * FROM USUARIO WHERE email = :email LIMIT 1");
+    $buscar_user = $con->prepare("SELECT id, contrasena, tipo_usuario, fk_enlace, correo_electronico, CONVERT(CONCAT(emp_nombres, ' ', emp_paterno, ' ', emp_materno) USING utf8) AS Empleado, emp_rfc AS RFC, emp_curp AS CURP 
+    FROM empleado 
+    INNER JOIN pri_empleado ON fk_enlace=id_emp_empleado
+    WHERE correo_electronico = :email");
+
     $buscar_user->bindParam(':email', $email_valido, PDO::PARAM_STR);
     $buscar_user->execute();
 
     if($buscar_user->rowCount() == 1){
         // Existe
         $user = $buscar_user->fetch(PDO::FETCH_ASSOC);
-        $user_id = (int) $user['ID_USUARIO'];
-        $hash = (string) $user['CONTRASENA'];
+        $user_id = (int) $user['id'];
+        $hash = (string) $user['contrasena'];
         
         if(password_verify($password,$hash)){
             session_start();
