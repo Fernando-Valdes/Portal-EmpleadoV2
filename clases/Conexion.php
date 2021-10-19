@@ -4,10 +4,10 @@ class Conectar
 	{
 	 public function conexion(){
 // Create connection
-	 	$servidor="162.241.61.148";
-	 	$usuario="tachiapa_verspub";
-	 	$password='Chiapas2021TA&%$';
-	 	$bd="tachiapa_verspub";
+	 	$servidor="192.168.1.224";
+	 	$usuario="portal-empleado";
+	 	$password='TA2021&%$';
+	 	$bd="siga_administrativo";
 
 		$conexion = mysqli_connect($servidor,
 									$usuario,
@@ -17,7 +17,5 @@ class Conectar
 		return $conexion;
 
 	}
-
 }
-
 ?>

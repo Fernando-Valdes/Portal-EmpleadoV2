@@ -41,9 +41,9 @@ class Usuario extends Conectar{
 	public function buscarUsuarioRepetido($email){
 		$conexion= Conectar::conexion();
 
-		$sql= "SELECT email 
-				FROM USUARIO
-				WHERE email='$email'";
+		$sql= "SELECT correo_electronico 
+				FROM empleado
+				WHERE correo_electronico='$email'";
 
 		$result= mysqli_query($conexion, $sql);
 
@@ -62,8 +62,8 @@ class Usuario extends Conectar{
 		$conexion= Conectar::conexion();
 
 		$sql= "SELECT count(*) as existeUsuario
-				FROM USUARIO
-				WHERE EMAIL='$email' 
+				FROM empleado
+				WHERE correo_electronico='$email' 
 				AND CONTRASENA = '$password'";
 
 		$result = mysqli_query($conexion, $sql);
@@ -71,18 +71,18 @@ class Usuario extends Conectar{
 		$respuesta= mysqli_fetch_array($result)['existeUsuario'];
 
 		if ($respuesta > 0) {
-			$_SESSION['email'] = $email;
+			$_SESSION['correo_electronico'] = $email;
 
-			$sql= "SELECT ID_USUARIO
-				FROM USUARIO
-				WHERE EMAIL='$email' 
+			$sql= "SELECT ID
+				FROM empleado
+				WHERE correo_electronico='$email' 
 				AND CONTRASENA = '$password'";
 
 		$result = mysqli_query($conexion, $sql);
 		$idUsuario = mysqli_fetch_row($result)[0];
 
 
-			$_SESSION['idUsuario'] = $idUsuario;
+			$_SESSION['id'] = $idUsuario;
 
 			return 1;
 		}else{

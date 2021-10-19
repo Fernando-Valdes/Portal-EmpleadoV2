@@ -6,26 +6,18 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="icon" type="image/x-icon" href="media/TA PJECHIS.ico" />
       <title>Iniciar sesión</title>
-      <link rel="stylesheet" type="text/css" href="./librerias/alertifyjs/css/alertify.css">
-      <link rel="stylesheet" type="text/css" href="./librerias/alertifyjs/css/alertify.min.css">
-      <link rel="stylesheet" type="text/css" href="./librerias/alertifyjs/css/themes/default.css">
-      <link rel="stylesheet" type="text/css" href="./librerias/bootstrap-5.0.2-dist/css/bootstrap.min.css">   
-      <link rel="stylesheet" type="text/css" href="./css/sb-admin-2.css">    
+      <link rel="stylesheet" type="text/css" href="librerias/alertifyjs/css/alertify.css">
+      <link rel="stylesheet" type="text/css" href="librerias/alertifyjs/css/alertify.min.css">
+      <link rel="stylesheet" type="text/css" href="librerias/alertifyjs/css/themes/default.css">
+      <link rel="stylesheet" type="text/css" href="librerias/bootstrap-5.0.2-dist/css/bootstrap.min.css">     
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="./css/style_login.css">
   </head>
 <body>
 <body>
  <header>
-  <nav class="navbar sticky-top navbar-light bg-light">
+  <nav class="navbar sticky-top navbar-light bg-light" class="alert alert-caja-principal" role="alert">
   <div class="container-fluid">
-    <aMenu><a href="https://tachiapas.gob.mx/acciones-ante-el-covid-19/">MicroSitio COVID-19</a></aMenu>
-    <aMenu><a href="https://tachiapas.gob.mx/acuerdos-generales-covid19/">Acuerdos Generales</a></aMenu>
-    <aMenu><a href="https://tachiapas.gob.mx/equidad-genero/">Micrositio Equidad de Género</a></aMenu>
-    <aMenu><a href="https://tachiapas.gob.mx/relacion-de-expedientes/">Expedientes</a></aMenu>
-    <aMenu><a href="https://tachiapas.gob.mx/acerca-del-tribunal/">Acerca del Tribunal</a></aMenu>
-    <aMenu><a href="https://tachiapas.gob.mx/acerca-del-tribunal/">Contáctanos</a></aMenu>
-    <aMenu><a href="https://tachiapas.gob.mx/directorio-de-funcionarios/">Directorio de funcionarios</a></aMenu>
+    <a href="https://tachiapas.gob.mx/acciones-ante-el-covid-19/">MicroSitio COVID-19</a>
   </div>
 </nav>
   </header>

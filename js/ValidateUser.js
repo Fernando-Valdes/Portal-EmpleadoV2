@@ -15,12 +15,9 @@ $(document).on("submit", ".frm_registro", function(event){
     var confirm_password = { conf_password: $("#confirm_password", $form).val()};
 
     var data_form = {
-        org_juris: $("#org_juris",$form).val(),
-        nombre: $("#nombre",$form).val(),
-        apellido: $("#apellido",$form).val(),
+        enlace: $("#enlace",$form).val(),
         email: $("#email",$form).val(),
         password: $("#password", $form).val(),
-        codigo: $("#codigo", $form).val()
     }
 
     if(data_form.org_juris == 0){
