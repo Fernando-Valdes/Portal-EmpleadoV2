@@ -1,0 +1,10 @@
+<?php
+	
+
+	echo $instancia =$_POST['OrgJuris'];
+
+	$nombre_temporal=$_FILES['archivo']['tmp_name'];
+	$nombre=$_FILES['archivo']['name'];
+	move_uploaded_file($nombre_temporal, 'archivos/'.$nombre);
+
+?>
