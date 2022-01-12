@@ -81,7 +81,7 @@
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" name="enlace" id="enlace" placeholder="Enlace" 
                  title="Ingresar el número de Enlace" required>
-                <label for="nombre">Enlace</label>
+                <label for="enlace">Enlace</label>
                 <div class="invalid-feedback">
                   Por favor Ingrese su Enlace.
                 </div>

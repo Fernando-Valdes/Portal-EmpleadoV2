@@ -20,32 +20,14 @@ $(document).on("submit", ".frm_registro", function(event){
         password: $("#password", $form).val(),
     }
 
-    if(data_form.org_juris == 0){
+    if(data_form.enlace.length < 1){
          Swal.fire({
             icon: 'error',
-            title: 'Por favor seleccióne el organo jurisdiccional correspondiente.',
+            title: 'Por ingrese su número de enlace.',
             confirmButtonText: 'De acuerdo',
-            footer: '&nbsp;<b>Por favor seleccione el organo jurisdiccional al que pertenece.</b>'
+            footer: '&nbsp;<b>Por ingrese su número de enlace.</b>'
           })
         return false;        
-        }
-        else if(data_form.nombre.length < 3){
-         Swal.fire({
-            icon: 'error',
-            title: 'Por favor ingrese su nombre completo.',
-            confirmButtonText: 'De acuerdo',
-            footer: '&nbsp;<b>Asegurese de ingresar su nombre correctamente.</b>'
-          })
-        return false;        
-        }
-        else if(data_form.apellido.length < 3){
-         Swal.fire({
-            icon: 'error',
-            title: 'Por favor ingrese sus apellidos.',
-            confirmButtonText: 'De acuerdo',
-            footer: '&nbsp;<b>Asegurese de ingresar sus apellidos correctamente.</b>'
-          })
-        return false;
         }
         else if(data_form.email.length < 3){
          Swal.fire({
@@ -96,16 +78,6 @@ $(document).on("submit", ".frm_registro", function(event){
            })
          return false;
          }
-         else if(data_form.codigo.length < 10){
-          Swal.fire({
-             icon: 'error',
-             title: 'El código que ingresó no es válido.',
-             confirmButtonText: 'De acuerdo',
-             footer: '&nbsp;<b>El código deberá solicitarlo previamente al área de informática.</b>'
-           })
-         return false;        
-         }
-
   
     var url_php = './procesos/usuario/registro/NewUser.php';
 
